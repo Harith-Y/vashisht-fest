@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background: #000;
+    background-image: url('background.jpg');
 }
 
 .logo {
@@ -33,6 +33,8 @@ nav a {
 
 nav a:hover {
     color: #00ffcc;
+    background-image: url('hover.jpg');
+    background-position: center;
 }
 
 .cta {
@@ -46,6 +48,8 @@ nav a:hover {
 
 .cta:hover {
     background-color: #00bfa6;
+    background-image: url('hover.jpg');
+    background-position: center;
 }
 
 .hero {
@@ -93,6 +97,10 @@ nav a:hover {
     padding: 20px;
     border-radius: 10px;
     width: 300px;
+    background-image: url('eventbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .artist {
