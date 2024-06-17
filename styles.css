@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffcc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ffcc;
+}
+
+.cta {
+    background-color: #00ffcc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #00bfa6;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.countdown {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.about, .events, .pro-shows, .sponsors, footer {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.about img, .artist img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.event-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.artist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.artist-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.footer-links, .social-media, .contact-info, .newsletter {
+    margin: 20px 0;
+}
+
+footer a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.sponsor-logos img {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
